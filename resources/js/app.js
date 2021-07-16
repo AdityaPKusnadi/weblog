@@ -1,0 +1,11 @@
+require('./bootstrap');
+require('@popperjs/core');
+import $ from 'jquery';
+window.jQuery = $;
+window.$ = $;
+const tinymce= require('tinymce');
+require('tinymce/themes/silver');
+require('tinymce/icons/default');
+require('sweetalert2');
+import Swal from 'sweetalert2';
+window.Swal = Swal;

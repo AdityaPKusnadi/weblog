@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/bootstrap";
+// @import '~jquery-ui/themes/base/all.css';
+// @import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "~tinymce/skins/ui/oxide/skin.css";
+@import "~tinymce/skins/ui/oxide/content.css";
+@import "~tinymce/skins/content/default/content.css";
+@import "~font-awesome/scss/font-awesome.scss";
+
+$font-stack: Helvetica,sans-serif;
+$primary-color:#333;
+$font-color:white;
+body{
+    font:100%$font-stack;
+    color:$primary-color;
+    background-color: $primary-color;
+}
+
+.title{
+    color: $font-color;
+    text-decoration: none;
+}
+
+.timestamp{
+    color:$font-color;
+    font-size: 4;
+}
+.authorlink{
+    color:$font-color;
+    font-size: 4;
+    text-decoration: none;
+    font:Roboto;
+}
+
+.titlecontent .content .authorcomment{
+    color:$font-color;
+}
+
+#box-comment{
+    background-color:$font-color;
+    border: 2px;
+    border-color: black;
+
+    h5{
+        color: black;
+    }
+
+    .btnComment{
+        text-align: center;
+    }
+
+    display: none;
+}
